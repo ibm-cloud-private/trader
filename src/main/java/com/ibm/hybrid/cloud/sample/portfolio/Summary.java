@@ -54,7 +54,7 @@ public class Summary extends HttpServlet {
 		writer.append("    <img src=\"header.jpg\" width=\"534\" height=\"200\"/>");
 		writer.append("    <br/>");
 		writer.append("    <form method=\"post\"/>");
-		writer.append("      <input type=\"radio\" name=\"action\" value=\""+CREATE+"\"> Create a new portfolio<br>");
+		writer.append("      <input type=\"radio\" name=\"action\" value=\""+CREATE+"\"> Create a new portfolio(v1)<br>");
 		writer.append("      <input type=\"radio\" name=\"action\" value=\""+RETRIEVE+"\" checked> Retrieve selected portfolio<br>");
 		writer.append("      <input type=\"radio\" name=\"action\" value=\""+UPDATE+"\"> Update selected portfolio (add stock)<br>");
 		writer.append("      <input type=\"radio\" name=\"action\" value=\""+DELETE+"\"> Delete selected portfolio<br>");
